@@ -7,3 +7,8 @@ template <class T> T multiply(T a, T b)
 {
   return a*b;
 }
+
+int subtract(int a, int b)
+{
+  return a-b
+}
