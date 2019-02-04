@@ -3,7 +3,7 @@ int add(int a, int b)
   return a+b;
 }
 
-float multiply(float a, float b)
+template <class T> T multiply(T a, T b)
 {
   return a*b;
 }
