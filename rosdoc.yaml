@@ -1,0 +1,7 @@
+- builder: doxygen
+  name: C++ API
+  output_dir: doc_cpp
+  file_patterns: '*.c *.cpp *.h *.cc *.hh'
+  tab_size: 4
+- builder: sphinx
+  sphinx_root_dir: ./pydoc
