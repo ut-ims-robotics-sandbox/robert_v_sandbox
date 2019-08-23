@@ -32,6 +32,12 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+if(CATKIN_ENABLE_TESTING)
+  find_package(rostest REQUIRED)
+  add_rostest_gtest(calculator_test_node test/calculator_test_launch.test src/test/calculator_test.cpp)
+  target_link_libraries(calculator_test_node ${catkin_LIBRARIES})
+endif()
+
 # calculator node
 add_executable(calculator_node_cpp
   src/calculator_node.cpp
