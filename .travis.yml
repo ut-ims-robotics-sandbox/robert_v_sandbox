@@ -16,3 +16,5 @@ script:
   - source .ci_config/travis.sh
 after_script:
   - bash $CATKIN_WORKSPACE/scripts/hello.bash
+  - ls $CATKIN_WORKSPACE/
+  - ls $CATKIN_WORKSPACE/scripts/
