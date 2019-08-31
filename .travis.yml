@@ -15,4 +15,5 @@ install:
 script:
   - source .ci_config/travis.sh
 after_script:
+  - source /opt/ros/$ROS_DISTRO/setup.bash
   - bash $(rospack find robert_v_sandbox)/scripts/hello.bash
