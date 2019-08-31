@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
+  nodelet
 )
 
 add_service_files(
@@ -22,8 +23,8 @@ generate_messages(
 
 catkin_package(
   INCLUDE_DIRS include
-  #LIBRARIES
-  CATKIN_DEPENDS roscpp rospy message_runtime
+  LIBRARIES calculator_nodelet
+  CATKIN_DEPENDS roscpp rospy message_runtime nodelet
 #  DEPENDS system_lib
 ) 
 
@@ -49,5 +50,19 @@ add_dependencies(calculator_node_cpp
   ${${PROJECT_NAME}_EXPORTED_TARGETS}
 )
 target_link_libraries(calculator_node_cpp
+  ${catkin_LIBRARIES}
+)
+
+# calculator nodelet
+add_library(calculator_nodelet
+  src/calculator_nodelet.cpp
+  src/my_math_operators.cpp
+)
+
+add_dependencies(calculator_nodelet
+  ${catkin_EXPORTED_TARGETS}
+  ${${PROJECT_NAME}_EXPORTED_TARGETS}
+)
+target_link_libraries(calculator_nodelet
   ${catkin_LIBRARIES}
 )

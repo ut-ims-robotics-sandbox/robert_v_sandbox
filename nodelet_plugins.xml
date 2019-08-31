@@ -1,0 +1,7 @@
+<library path="lib/libcalculator_nodelet">
+  <class name="robert_v_sandbox/CalculatorNodelet" type="CalculatorNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+      This is my calculator nodelet.
+    </description>
+  </class>
+</library>
