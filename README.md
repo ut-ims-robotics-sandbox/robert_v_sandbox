@@ -1,1 +1,1 @@
-https://travis-ci.com/ut-ims-robotics-sandbox/robert_v_sandbox.svg?branch=ros-workshop
+[![Build Status](https://travis-ci.com/ut-ims-robotics-sandbox/robert_v_sandbox.svg?branch=master)](https://travis-ci.com/ut-ims-robotics-sandbox/robert_v_sandbox)
