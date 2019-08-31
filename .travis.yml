@@ -16,4 +16,6 @@ script:
   - source .ci_config/travis.sh
 after_script:
   - source $CATKIN_WORKSPACE/devel/setup.bash
-  - bash $CATKIN_WORKSPACE/src/robert_v_sandbox/scripts/hello.bash
+  - bash /root/src/robert_v_sandbox/scripts/hello.bash
+  - ls /root/src/
+  - ls $CATKIN_WORKSPACE
