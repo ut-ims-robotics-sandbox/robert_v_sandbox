@@ -1,0 +1,13 @@
+{
+  "position": {
+    "x": {
+        "pvf_type": "number"
+    },
+    "y": {
+      "pvf_type": "number"
+    },
+    "z": {
+      "pvf_type": "number"
+    }
+  }  
+}

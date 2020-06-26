@@ -1,4 +1,0 @@
-<launch>
-  <node pkg="nodelet" type="nodelet" name="calculator_nodelet_manager" args="manager" output="screen"/>
-  <node pkg="nodelet" type="nodelet" name="calculator_nodelet" args="load robert_v_sandbox/CalculatorNodelet calculator_nodelet_manager" output="screen"> </node>
-</launch>

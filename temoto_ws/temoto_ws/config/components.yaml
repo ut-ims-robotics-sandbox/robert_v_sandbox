@@ -1,0 +1,7 @@
+Components:
+- component_name: "TeMoto NL Terminal"
+  component_type: "human chatter"
+  package_name: "temoto_nlp"
+  executable:  "nl_terminal.launch"
+  output_topics:
+    chatter_data: "human_chatter"

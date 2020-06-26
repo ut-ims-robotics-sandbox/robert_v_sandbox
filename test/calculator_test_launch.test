@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node pkg="robert_v_sandbox" type="calculator_node_cpp" name="calculator_node_cpp"/>
-  <test test-name="calculator_test_node" pkg="robert_v_sandbox" type="calculator_test_node"/>
-</launch>

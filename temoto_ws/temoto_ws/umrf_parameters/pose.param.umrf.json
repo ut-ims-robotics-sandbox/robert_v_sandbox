@@ -1,0 +1,26 @@
+{
+  "pose": {
+    "position": {
+      "x": {
+          "pvf_type": "number"
+      },
+      "y": {
+        "pvf_type": "number"
+      },
+      "z": {
+        "pvf_type": "number"
+      }
+    },
+    "orientation": {
+      "roll": {
+          "pvf_type": "number"
+      },
+      "pitch": {
+        "pvf_type": "number"
+      },
+      "yaw": {
+        "pvf_type": "number"
+      }
+    }
+  }    
+}

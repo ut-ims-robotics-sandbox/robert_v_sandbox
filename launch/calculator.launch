@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node name="calculator_node_cpp" pkg="robert_v_sandbox" type="calculator_node_cpp" output="screen"/>
-</launch>

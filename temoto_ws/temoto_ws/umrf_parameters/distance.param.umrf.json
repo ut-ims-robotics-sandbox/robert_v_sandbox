@@ -1,0 +1,10 @@
+  {
+    "distance": {
+        "amount": {
+            "pvf_type": "number"
+        },
+        "unit": {
+            "pvf_type": "string"
+        }
+    }  
+}
