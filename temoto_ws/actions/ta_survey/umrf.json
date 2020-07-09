@@ -1,0 +1,11 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "take a photo",
+    "effect": "synchronous",
+    "input_parameters": {
+        "survey_type": {
+            "pvf_type": "string"
+        }
+    }
+}
