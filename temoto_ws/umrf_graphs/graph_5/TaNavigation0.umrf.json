@@ -1,16 +1,16 @@
 {
     "name": "TaNavigation",
     "package_name": "ta_navigation",
-    "description": "back up to the entryway of that room",
+    "description": "and then go into the other entryway on the left side of that room",
     "effect": "synchronous",
     "input_parameters": {
         "location": {
             "pvf_type": "string",
-            "pvf_example": "entryway of that room"
+            "pvf_example": "the other entryway on the left side of that room"
         },
         "verb": {
             "pvf_type": "string",
-            "pvf_example": "back up"
+            "pvf_example": "go"
         }
     }
 }

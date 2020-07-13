@@ -1,0 +1,26 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "move forward 5 feet",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "forward"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "5"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "feet"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "move"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "then send photo",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "survey_type": {
+            "pvf_type": "string",
+            "pvf_example": "photo"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 1
+        }
+    ]
+}

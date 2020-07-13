@@ -1,0 +1,26 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "turn right ninety degrees",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "ninety"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degrees"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    }
+}

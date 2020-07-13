@@ -1,0 +1,32 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "hallway on your right",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "90"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degrees"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "rotate"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

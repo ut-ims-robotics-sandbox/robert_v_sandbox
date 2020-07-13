@@ -1,0 +1,12 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "send picture",
+    "effect": "synchronous",
+    "input_parameters": {
+        "survey_type": {
+            "pvf_type": "string",
+            "pvf_example": "picture"
+        }
+    }
+}

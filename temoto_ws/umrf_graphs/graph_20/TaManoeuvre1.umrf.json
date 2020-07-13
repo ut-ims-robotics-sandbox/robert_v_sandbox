@@ -1,0 +1,38 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "turn 45 right",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "45"
+            },
+            "unit": {
+                "pvf_type": "string"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaSurvey",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

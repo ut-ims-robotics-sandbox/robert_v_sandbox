@@ -1,0 +1,25 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_value": "MODIFY THIS FIELD"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_value": 0.0
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_value": "MODIFY THIS FIELD"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_value": "MODIFY THIS FIELD"
+        }
+    }
+}

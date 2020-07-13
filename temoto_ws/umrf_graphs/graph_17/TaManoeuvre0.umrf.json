@@ -1,0 +1,26 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "back up eleven feet",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "backwards"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "eleven"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "feet"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "back up"
+        }
+    }
+}

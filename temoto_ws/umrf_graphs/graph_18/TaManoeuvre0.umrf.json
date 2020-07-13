@@ -1,0 +1,25 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "turn forty five degrees to your right",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "to your right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "forty five"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degrees"
+            }
+        },
+        "verb": {
+            "pvf_type": "string"
+        }
+    }
+}

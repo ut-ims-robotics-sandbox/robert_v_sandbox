@@ -1,0 +1,37 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "clockwise"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "180"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degree"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "rotate"
+        }
+    },
+    "children": [
+        {
+            "name": "TaSurvey",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaSurvey",
+            "id": 0
+        }
+    ]
+}

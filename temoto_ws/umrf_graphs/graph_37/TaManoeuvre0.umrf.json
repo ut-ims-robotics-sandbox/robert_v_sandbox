@@ -1,0 +1,24 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "turn to face East",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "East"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number"
+            },
+            "unit": {
+                "pvf_type": "string"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    }
+}

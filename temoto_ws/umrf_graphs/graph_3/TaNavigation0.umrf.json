@@ -1,0 +1,16 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "can just back up to the entryway of that room",
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "entryway of that room"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "back up"
+        }
+    }
+}

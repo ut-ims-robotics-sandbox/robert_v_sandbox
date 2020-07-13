@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "move five feet down the hallway",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "down"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "five"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "feet"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "move"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

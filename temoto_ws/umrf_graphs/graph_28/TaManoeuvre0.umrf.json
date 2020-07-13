@@ -1,0 +1,26 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "turn at least maybe ten more degrees to your left",
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "ten"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degrees"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    }
+}

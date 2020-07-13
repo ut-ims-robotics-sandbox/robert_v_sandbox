@@ -1,0 +1,10 @@
+<launch>
+  <arg name="umrf_file" default="$(find ta_manoeuvre)/test/invoker_umrf.json"/>
+  <arg name="wake_word" default="ta_manoeuvre"/>
+  <arg name="action_path" default="$(find ta_manoeuvre)"/>
+
+  <node name="temoto_action_engine" pkg="temoto_action_engine" type="action_engine_node" output="screen"
+        args="--sa $(arg action_path) 
+              --d $(arg umrf_file) 
+              --mw $(arg wake_word)"/>
+</launch>
