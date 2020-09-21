@@ -1,0 +1,6 @@
+{
+    "name": "TaResourceRegistrarDemo",
+    "package_name": "ta_resource_registrar_demo",
+    "description": "Demonstrates the functionalities of the Resource Registrar",
+    "effect": "asynchronous"
+}

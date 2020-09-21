@@ -10,3 +10,6 @@
 [submodule "temoto_action_engine"]
 	path = temoto_action_engine
 	url = https://github.com/temoto-telerobotics/temoto_action_engine
+[submodule "temoto_utils"]
+	path = temoto_utils
+	url = https://github.com/temoto-telerobotics/temoto_utils
