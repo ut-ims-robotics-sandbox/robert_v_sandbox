@@ -1,0 +1,5 @@
+doc/
+*.pyc
+*.so
+lib/
+*.swp
