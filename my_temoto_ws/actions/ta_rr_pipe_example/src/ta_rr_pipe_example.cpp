@@ -55,6 +55,10 @@ void executeTemotoAction()
   {
     TEMOTO_INFO_STREAM(pipe_topic.first << " at " << pipe_topic.second);
   }
+
+  /*
+   * Now it is up to the user/action-developer to do something with the pipe topics 
+   */
 }
 
 // Destructor
