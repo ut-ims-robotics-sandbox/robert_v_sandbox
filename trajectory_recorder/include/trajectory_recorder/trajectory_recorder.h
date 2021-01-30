@@ -57,6 +57,7 @@ private:
   ros::ServiceServer recorder_control_server_;
   ros::ServiceServer get_trajectory_server_;
   ros::Time time_from_last_point_;
+  ros::Time recording_start_time_;
 
   State state_;
   float frequency_;

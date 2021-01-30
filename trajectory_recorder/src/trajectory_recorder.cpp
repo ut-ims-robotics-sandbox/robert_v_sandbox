@@ -58,9 +58,10 @@ void TrajectoryRecorder::startRecordingTrajectory()
     return;
   }
 
-  // Clear the trajectory
+  // Clear the trajectory and set new start time
   ROS_INFO_STREAM("Started recording the trajectory");
   recorded_trajectory_ = trajectory_msgs::JointTrajectory();
+  recording_start_time_ = ros::Time::now();
   state_ = State::recording;
 }
 
@@ -156,6 +157,7 @@ void TrajectoryRecorder::addTrajectoryPoint(const sensor_msgs::JointState& msg)
   trajectory_point.positions = msg.position;
   trajectory_point.velocities = msg.velocity;
   trajectory_point.accelerations = msg.effort;
+  trajectory_point.time_from_start = ros::Time::now() - recording_start_time_;
   recorded_trajectory_.points.push_back(trajectory_point);
 
   time_from_last_point_ = ros::Time::now();
