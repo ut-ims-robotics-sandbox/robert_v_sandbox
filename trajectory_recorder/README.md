@@ -3,11 +3,11 @@ The trajectory recorder listens to the [sensor_msgs/JointState](http://docs.ros.
 
 ## Usage
 ``` bash
-rosrun trajectory_recorder trajectory_recorder
+rosrun trajectory_recorder trajectory_recorder_node
 ```
 to remap the joint_state topic:
 ``` bash
-rosrun trajectory_recorder trajectory_recorder joint_states:=<NEW_TOPIC_NAME>
+rosrun trajectory_recorder trajectory_recorder_node joint_states:=<NEW_TOPIC_NAME>
 ```
 
 The recorder can be started and stopped via ROS service. Previously recorded trajectory is overwritten when the recorder is started.
