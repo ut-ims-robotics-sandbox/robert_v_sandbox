@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find jackal_navigation)/launch/amcl_demo.launch">
+    <arg name="map_file" value="/home/robert/catkin_workspaces/sandbox_ws/src/temoto_ws/temoto_ws/config/jackal_construction_world.yaml" />
+  </include>
+
+</launch>

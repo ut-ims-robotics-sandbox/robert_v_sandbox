@@ -1,0 +1,12 @@
+{
+  "name": "TaSimpleNavigation",
+  "package_name": "ta_simple_navigation",
+  "id": 1,
+  "effect": "synchronous",
+  "children": [
+      {
+          "name": "TaSimpleNavigation",
+          "id": 0
+      }
+  ]
+}

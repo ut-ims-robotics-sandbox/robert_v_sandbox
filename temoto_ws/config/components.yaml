@@ -1,0 +1,43 @@
+Components:
+- component_name: "Realsense d435i"
+  component_type: "3d_camera"
+  package_name: "temoto_ws"
+  executable:  "rs_camera.launch"
+  output_topics:
+    camera_data_3d: "/camera/depth/color/points"
+    camera_info_3d: "/camera/depth/camera_info"
+  required_parameters:
+    filters: "pointcloud"
+
+- component_name: "Realsense d435i 2D camera"
+  component_type: "2d_camera"
+  package_name: "temoto_ws"
+  executable:  "usb_cam_remappable.launch"
+  output_topics:
+    camera_data: "usb_cam/image_raw"
+    camera_data_compressed: "usb_cam/image_raw/compressed"
+    camera_info: "usb_cam/camera_info"
+  required_parameters:
+    frame_id: "camera_link"
+    video_device: "/dev/video2"
+
+- component_name: "Hokuyo 2D LIDAR"
+  component_type: "2d_lidar"
+  package_name: "temoto_ws"
+  executable:  "urg_node_remappable.launch"
+  output_topics:
+    lidar_data_2d: "scan"
+  required_parameters:
+    frame_id: "jackal_2d_lidar"
+    serial_port: "/dev/ttyACM1"
+
+- component_name: "Ouster OS-1 3D LIDAR"
+  component_type: "3d_lidar"
+  package_name: "temoto_ws"
+  executable:  "os1_remappable.launch"
+  output_topics:
+    lidar_data_3d: "points_raw"
+  required_parameters:
+    lidar_address: "10.5.5.55"
+    pc_address: "10.5.5.1"
+    lidar_frame_name: "os1_link"

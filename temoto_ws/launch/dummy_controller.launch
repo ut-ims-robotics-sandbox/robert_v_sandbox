@@ -1,0 +1,6 @@
+<launch>
+
+  <param name="dummy_controller" value="true" />
+  <node pkg="rospy_tutorials" type="listener" name="dummy_controller" />
+
+</launch>

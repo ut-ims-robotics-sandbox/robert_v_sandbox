@@ -1,4 +1,0 @@
----
-
-trajectory_msgs/JointTrajectory trajectory
-string response_message
