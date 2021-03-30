@@ -1,0 +1,15 @@
+[submodule "temoto_core"]
+	path = temoto_core
+	url = https://github.com/temoto-telerobotics/temoto_core
+	branch = feature-standalone
+[submodule "yaml-cpp"]
+	path = yaml-cpp
+	url = https://github.com/temoto-telerobotics/yaml-cpp
+[submodule "temoto_er_manager"]
+	path = temoto_er_manager
+	url = https://github.com/temoto-telerobotics/temoto_er_manager
+	branch = rr-devel
+[submodule "temoto_resource_registrar"]
+	path = temoto_resource_registrar
+	url = https://github.com/temoto-telerobotics/temoto_resource_registrar
+	branch = feature/ros1_implementation_prototype
